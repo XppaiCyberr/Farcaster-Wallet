@@ -3,7 +3,7 @@
     'use strict';
     
     const USD_SELECTOR = "#root > div > div.css-175oi2r.r-13awgt0 > div > div > div > div > div > div > div > div.css-175oi2r.r-xyw6el > div.css-175oi2r.r-d23pfw.r-1awozwy > div";
-    const EXCHANGE_API = 'https://api.exchangerate-api.com/v4/latest/USD';
+    const EXCHANGE_API = 'https://api.exchangerate-api.com/v6/latest/USD';
     
     let exchangeRates = {};
     let currentCurrency = 'IDR';
